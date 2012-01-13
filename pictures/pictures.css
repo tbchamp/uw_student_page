@@ -1,0 +1,76 @@
+  /*Tyler Beauchamp
+	Addapted from: Sylvia Tashev
+	CSE 190M, Spring 2009 */
+
+body {
+	background-color: #101010;
+	color: #808080;
+	text-align: center;
+}
+
+h1 {
+	border-bottom: 2px solid #808080;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding: 10px;
+	width: 70%;
+}
+
+#main {
+	margin: auto;
+	width: 90%;
+	height: 380px;
+}
+
+#mainimage {
+	border: 1px solid #808080;
+	height: 360px;
+	padding: 8px;
+}
+
+#pictures {
+	line-height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+#pictures img {
+	height: 60px;
+	margin-left: 5px;
+	margin-right: 5px;
+	vertical-align: top;
+}
+
+#w3c {
+	display: none;
+	margin-top: 2em;
+	text-align: center;
+}
+
+#w3c img {
+	border-width: 0px;
+}
+
+/* menu */
+#menu_list{
+	list-style-type: none;
+	background-color: #101010;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.menu_item, .menu_item a{
+	display: inline;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.menu_item a:hover{
+	color: #FFDE73;
+}
