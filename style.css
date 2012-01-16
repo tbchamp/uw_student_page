@@ -155,6 +155,7 @@ color:#AEF080;
 	width: 870px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 35px;
 }
 
 .content-padding {
@@ -174,7 +175,7 @@ color:#AEF080;
   text-shadow:0px 0px 3px #FF0000;
 }
 
-#me_pic {
+.me_pic {
 	width: 180px;
 	float: left;
 	margin-right: 10px;

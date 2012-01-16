@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
 	<title>Tyler Beauchamp's Page</title>
-	<link href="shortcut_icon.png" type="image/png" rel="shortcut icon" />
+	<link href="images/shortcut_icon.png" type="image/png" rel="shortcut icon" />
 	<link rel="stylesheet" media="screen" type="text/css" href="style.css" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <script type="text/javascript">
@@ -30,10 +30,10 @@
 		  <div id="nav-menu">
 		  <!-- navigation links -->
 		    <ul>
-			  <li><a href="http://students.washington.edu/tbchamp/">Home</a></li>
+			  <li><a href="index.php">Home</a></li>
 			  <li><a href="http://vger.aa.washington.edu/~tbchamp/">AA Research</a></li>
-			  <li><a href="/tbchamp/pictures.php">Pictures</a></li>
-			  <li><a href="/tbchamp/links.html">Links & Calendar</a></li>
+			  <li><a href="/tbchamp/pictures/pictures.php">Pictures</a></li>
+			  <li><a href="/tbchamp/links/links.html">Links &amp; Calendar</a></li>
 			  <li><a href="/tbchamp/Resume.pdf" style="background-image: none;">Resume</a></li>
 			</ul>
           </div>
@@ -48,7 +48,7 @@
 	  
 	  <div id="content">
 	    <div class="content-padding">
-	    	<img id="me_pic" src="me.png" alt="Tyler Beauchamp" />
+	    	<img class="me_pic" src="images/me.png" alt="Tyler Beauchamp" />
 	      <h1>About Me:</h1>
           
           <p>I am a Computer Engineering student at the University of Washington (Seattle). I was accepted into the department for fall quarter 2010. My interests include: robots, integrated systems, artificial intelligence, web page design, and programming in general. I love the outdoors and enjoy hiking, backpacking, kayaking, biking, and camping.</p>
@@ -65,23 +65,27 @@
 	  <div id="body-divider"></div><!-- the division between the light green content section, and the dark -->
 	  <div id="content2">
 	    <div class="content-padding">
-		  <!-- content blocks (three side by side), can remove if needed, this was just an example -->
+		  <!-- content blocks (three side by side) -->
 		  <div class="content2-block">
-		  	<img src="http://students.washington.edu/tbchamp/images/headline-arrow.gif" alt="arrow" />
-		    <h2>Family / Genealogy:</h2>
-		    <p>For my Senior Project in High School, I created a family webpage, something that my family had been meaning to work on for a while.</p>
-		    <p>The site focuses on the Norris side of my mother's family:</p>
-		    <p><a href="http://thenorrises.org/">http://thenorrises.org/</a></p>
-		    <p></p>
-		    <img src="http://students.washington.edu/tbchamp/images/headline-arrow.gif" alt="arrow" />
+		  	<img src="images/headline-arrow.gif" alt="arrow" />
+		    <h2>CSE Projects:</h2>
+		    <p>CSE403: <a href="CSE projects/recipe_reader.html">Recipe Reader Andriod App</a></p>
+            <p>CSE454: RevMiner Project</p>
+            <p></p>
+		    <img src="images/headline-arrow.gif" alt="arrow" />
 		    <h2>HCDE 333 Portfolio:</h2>
 		    <p>I put together a portfolio of my work in my HCDE class.</p>
-		    <p><a href="http://students.washington.edu/tbchamp/HCDE_333_portfolio.html">HCDE 333 Portfolio</a></p>
+		    <p><a href="HCDE_333/HCDE_333_portfolio.html">HCDE 333 Portfolio</a></p>
+            <p></p>
+		    <img src="images/headline-arrow.gif" alt="arrow" />
+            <h2>Family / Genealogy:</h2>
+		    <p>For my Senior Project in High School, I created a family webpage that focuses on the Norris side of my mother's family:</p>
+		    <p href="../recipe reader/style.css" rel="stylesheet" type="text/css"><a href="http://thenorrises.org/">http://thenorrises.org/</a></p>
 		  </div>
 		  <div class="content-divider"></div>
 		  <div class="content2-block">
 		    <div>
-		    <img src="http://students.washington.edu/tbchamp/images/headline-arrow.gif" alt="arrow" />
+		    <img src="images/headline-arrow.gif" alt="arrow" />
 		    <h3>Seattle Weather:</h3>
 		    <?php
 		    	/* helper methods */
@@ -112,10 +116,10 @@
 				
 		    ?>
 		    <p>Conditions: <?php echo $weather_condition; ?>, <?php echo $weather_temp; ?> F</p>
-		    <p><img src="http://students.washington.edu/tbchamp/weatherimage-seattle.php" alt="weather seattle" /></p>
+		    <p><img src="weather/weatherimage-seattle.php" alt="weather seattle" /></p>
 		    </div>
 		    <div>
-		    <img src="http://students.washington.edu/tbchamp/images/headline-arrow.gif" alt="arrow" />
+		    <img src="images/headline-arrow.gif" alt="arrow" />
 		    <h4>Vancouver Weather:</h4>
 		    <?php					
 		    	$data = get_data("http://weather.yahooapis.com/forecastrss?p=98682&u=f");
@@ -123,17 +127,18 @@
 				$weather_temp = bm_getWeatherProperties('temp',$data);
 		    ?>
 		    <p>Conditions: <?php echo $weather_condition; ?>, <?php echo $weather_temp; ?> F</p>
-		    <p><img src="http://students.washington.edu/tbchamp/weatherimage-vancouver.php" alt="weather seattle" /></p>
+		    <p><img src="weather/weatherimage-vancouver.php" alt="weather seattle" /></p>
 		    </div>
 		  </div>
 		  <div class="content-divider"></div>
-  		  <div class="content2-block">
-		    <img src="http://students.washington.edu/tbchamp/images/headline-arrow.gif" alt="arrow" />
+  		  
+          <div class="content2-block">
+		    <img src="images/headline-arrow.gif" alt="arrow" />
 		    <h5>Contact Me:</h5>
 			<p>Email: tbchamp (at) uw.edu or (at) cs.washington.edu</p>
 			<p>Phone: (360) 836-1029</p>
 			<p><a href="http://www.facebook.com/thebchamp">Facebook</a></p>
-			<p><img src="qrcode.png" alt="qr code: website link" /></p>
+			<p><img src="images/qrcode.png" alt="qr code: website link" /></p>
 		  <!-- end content blocks -->
 		  </div>
 		  <div class="clearfloats"></div>
@@ -141,7 +146,7 @@
       </div>
 	  <div id="footer-div"></div>
 	  <div id="footer">
-	    <p>Thanks for Visiting!</a></p>
+	    <p>Thanks for Visiting!</p>
 	  </div>
 	</div>
   </body>

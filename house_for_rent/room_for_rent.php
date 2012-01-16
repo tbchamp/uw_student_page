@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
 	<title>Room for Sublet</title>
-	<link href="shortcut_icon.png" type="image/png" rel="shortcut icon" />
-	<link rel="stylesheet" media="screen" type="text/css" href="style.css" />
+	<link href="../images/shortcut_icon.png" type="image/png" rel="shortcut icon" />
+	<link rel="stylesheet" media="screen" type="text/css" href="../style.css" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <script type="text/javascript">
 		var _gaq = _gaq || [];
@@ -30,10 +30,10 @@
 		  <div id="nav-menu">
 		  <!-- navigation links -->
 		    <ul>
-			  <li><a href="http://students.washington.edu/tbchamp/">Home</a></li>
+			  <li><a href="../index.php">Home</a></li>
 			  <li><a href="http://vger.aa.washington.edu/~tbchamp/">AA Research</a></li>
-			  <li><a href="/tbchamp/pictures.php">Pictures</a></li>
-			  <li><a href="/tbchamp/links.html">Links & Calendar</a></li>
+			  <li><a href="../pictures/pictures.php">Pictures</a></li>
+			  <li><a href="../links/links.html">Links &amp; Calendar</a></li>
 			  <li><a href="/tbchamp/resume.php" style="background-image: none;">Resume</a></li>
 			</ul>
           </div>
@@ -48,7 +48,7 @@
 	  
 	  <div id="content">
 	    <div class="content-padding">
-	    	<img id="me_pic" src="house.png" alt="Tyler Beauchamp" />
+	    	<img class="me_pic" src="house_pics/house.png" alt="Tyler Beauchamp" />
 	      <h1>The House:</h1>
           
           <p>2 Rooms in our 4 bedroom house are avaliable for sublet, mid June - mid September.</p>
@@ -66,7 +66,7 @@
           <p>-> 1 Female Senior Civil Engineer and NASA SG Scholar, reserching on campus.</p>
           <p>-> 1 Male Senior Computer Engineer, working at Google.</p>
           <p></p>
-          <img id="map_pic" src="map.png" alt="map" />
+          <img id="map_pic" src="house_pics/map.png" alt="map" />
           <h1>Great Location!</h1>
           <p>5063 Sand Point Pl NE, Seattle, WA 98105</p>
           <p>-> Near the 75 and 30 bus routes and the Burke Gilman Trail.</p>
@@ -92,20 +92,20 @@
 	    <div class="content-padding">
 		  <!-- content blocks (three side by side), can remove if needed, this was just an example -->
 		  <div class="content2-block">
-		    <p><img src="entry.png" alt="more house" /></p>
-		    <p><img src="entry2.png" alt="more house" /></p>
+		    <p><img src="house_pics/entry.png" alt="more house" /></p>
+		    <p><img src="house_pics/entry2.png" alt="more house" /></p>
 		  </div>
 		  <div class="content-divider"></div>
 		  <div class="content2-block">
 		    <div>
-		    <p><img src="bath.png" alt="more house" /></p>
-		    <p><img src="kitchen.png" alt="more house" /></p>
+		    <p><img src="house_pics/bath.png" alt="more house" /></p>
+		    <p><img src="house_pics/kitchen.png" alt="more house" /></p>
 		    </div>
 		  </div>
 		  <div class="content-divider"></div>
   		  <div class="content2-block">
-		    <p><img src="room.png" alt="more house" /></p>
-		    <p><img src="patio.png" alt="more house" /></p>
+		    <p><img src="house_pics/room.png" alt="more house" /></p>
+		    <p><img src="house_pics/patio.png" alt="more house" /></p>
 		  <!-- end content blocks -->
 		  </div>
 		  <div class="clearfloats"></div>
@@ -113,7 +113,7 @@
       </div>
 	  <div id="footer-div"></div>
 	  <div id="footer">
-	    <p>Thanks for Visiting!</a></p>
+	    <p>Thanks for Visiting!</p>
 	  </div>
 	</div>
   </body>
