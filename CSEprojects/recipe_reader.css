@@ -40,6 +40,32 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 /* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
 header {
 	background: #ADB96E;
+	height:266px;
+}
+#logo {
+	width: 180px;
+	float: left;
+	background-color: #C6D580;
+}
+header ul li{
+	list-style: none;
+	clear: none;
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+header h1 {
+	size: 50;
+	font-family:Gloria Hallelujah;
+	font-size:60px;
+	margin-left: 200px;
+	margin-bottom: 20px;
+	clear:right;
+}
+header h2 {
+	font-family:The Girl Next Door;
+	font-size:30px;
+	margin-left: 190px;
 }
 /* ~~ These are the columns for the layout. ~~ 
 
@@ -57,6 +83,7 @@ header {
 	width: 180px;
 	background: #EADCAE;
 	padding-bottom: 10px;
+	clear: both;
 }
 .content {
 	padding: 10px 0;

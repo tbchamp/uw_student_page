@@ -51,8 +51,9 @@
 	    	<img class="me_pic" src="images/me.png" alt="Tyler Beauchamp" />
 	      <h1>About Me:</h1>
           
-          <p>I am a Computer Engineering student at the University of Washington (Seattle). I was accepted into the department for fall quarter 2010. My interests include: robots, integrated systems, artificial intelligence, web page design, and programming in general. I love the outdoors and enjoy hiking, backpacking, kayaking, biking, and camping.</p>
+          <p>I am a Computer Engineering student at the University of Washington (Seattle). I was accepted into the department for fall quarter 2010. My interests include: robots, artificial intelligence, web page design, and programming in general. I love the outdoors and enjoy hiking, backpacking, kayaking, biking, and camping.</p>
           <p>Over the last summer (2011), I interned with NetApp in San Jose, CA. I worked on the SMI-S interface team, programing in systems level code in C. I am continuing to work part time through the school year for my team.</p>
+          <p>I have signed a full-time offer with NetApp and I will be working for them starting October 1st 2012 in Sunneyvale, CA.</p>
           <p>I also work in the Nonlinear Dynamics and Control Lab (autonomous Robofish lab). I started working there through the Summer Undergraduate Research Program (SURP) over the summer of 2009. Since then, I have continued working in the lab. I help with many different projects, assisting post-docs, grad students, and other undergrads. I have written programs / algorithms, collected and analyzed data, and helped run tests for current projects. Our lab works both with the autonomous robotic fish they designed and made and with seagliders designed by the oceanography department and Applied Physics Lab.</p>
           <p>Specific Projects I have worked on include: analyze human decision making data, track live fish, write a speed controller for the fish, and help test the seagliders in the Puget Sound.</p>
           <p>I am a Washington NASA Space Grant Scholar and received a scholarship from the Consortium.</p>
@@ -69,7 +70,7 @@
 		  <div class="content2-block">
 		  	<img src="images/headline-arrow.gif" alt="arrow" />
 		    <h2>CSE Projects:</h2>
-		    <p>CSE403: <a href="CSE projects/recipe_reader.html">Recipe Reader Andriod App</a></p>
+		    <p>CSE403: <a href="CSEprojects/recipe_reader.html">Recipe Reader Andriod App</a></p>
             <p>CSE454: RevMiner Project</p>
             <p></p>
 		    <img src="images/headline-arrow.gif" alt="arrow" />
