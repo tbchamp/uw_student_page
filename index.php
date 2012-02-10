@@ -70,7 +70,7 @@
 		  <div class="content2-block">
 		  	<img src="images/headline-arrow.gif" alt="arrow" />
 		    <h2>CSE Projects:</h2>
-		    <p>CSE403: <a href="CSEprojects/recipe_reader.html">Recipe Reader Andriod App</a></p>
+		    <p>CSE403: <a href="http://cubist.cs.washington.edu/projects/12wi/cse403/r/index.html">Recipe Reader Andriod App</a></p>
             <p>CSE454: RevMiner Project</p>
             <p></p>
 		    <img src="images/headline-arrow.gif" alt="arrow" />
